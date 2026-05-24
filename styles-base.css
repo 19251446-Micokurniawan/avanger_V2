@@ -1,0 +1,67 @@
+/* Base styles */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Container */
+.container {
+    padding: 20px;
+}
+
+/* Card */
+.card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th {
+    background-color: #04AA6D;
+    color: white;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+/* Input */
+input[type=text],
+input[type=number],
+select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+/* Button */
+button,
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover,
+input[type=submit]:hover {
+    background-color: #038f5a;
+}
+
